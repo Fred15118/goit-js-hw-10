@@ -5,6 +5,8 @@
   |============================
 */
 @import url('./reset.css');
+@import url('./1-timer.css');
+@import url('./2-snackbar.css');
 
 
 :root {
@@ -21,4 +23,42 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+
+.to-homepage {
+  padding: 15px 20px;
+  display: block;
+  border: 2px solid rgb(108, 42, 184);
+  border-radius: 12px;
+  background-color: rgb(108, 42, 184);
+  width: 140px;
+  text-align: center;
+  color: azure;
+}
+
+.wrapper {
+  position: relative;
+  width: fit-content;
+  padding-bottom: 50px;
+}
+
+.list {
+  display: flex;
+  width: 100%;
+  padding: 200px 0;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  padding: 15px 20px;
+  display: block;
+  border: 2px solid rgb(104, 138, 17);
+  border-radius: 12px;
+  background-color: rgb(104, 138, 17);
+  width: 140px;
+  text-align: center;
+  color: azure;
 }

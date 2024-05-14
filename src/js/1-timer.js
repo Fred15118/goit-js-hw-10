@@ -45,7 +45,7 @@ const options = {
   },
 };
 
-const funcOfLib = flatpickr(refs.datePicker, options);
+ flatpickr(refs.datePicker, options);
 
 function convertMs(ms) {
   const second = 1000;
